@@ -2173,6 +2173,7 @@ input, select, textarea {
 	input[type="password"],
 	input[type="email"],
 	input[type="tel"],
+	input [type="hour"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -2195,6 +2196,7 @@ input, select, textarea {
 		input[type="password"]:invalid,
 		input[type="email"]:invalid,
 		input[type="tel"]:invalid,
+		input [type="hour"]:invalid
 		select:invalid,
 		textarea:invalid {
 			box-shadow: none;
@@ -2204,6 +2206,7 @@ input, select, textarea {
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		input[type="tel"]:focus,
+		input [type="hour"]:focus,
 		select:focus,
 		textarea:focus {
 			border-color: #5b6ba6;
